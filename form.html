@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form by JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="form">
+      <h1>Registration Form</h1>
+      <form onsubmit="fun()">
+        <div>
+          <label for="id">User ID:</label>
+          <input type="text" id="userID" name="id" />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="pass" />
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div>
+          <label for="add">Address:</label>
+          <input type="text" id="add" name="add" />
+        </div>
+        <div>
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option selected value="def">(please select a country)</option>
+            <option value="egypt">Egypt</option>
+            <option value="turkey">Angola</option>
+            <option value="emirates">United Arab Emirates</option>
+            <option value="Lebanon">Argentina</option>
+            <option value="Sudan">Sudan</option>
+            <option value="syria">Syria</option>
+          </select>
+        </div>
+        <div>
+          <label for="zcode">ZIP Code:</label>
+          <input type="text" id="zcode" name="zcode" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+        <div>
+          <label for="sex">Sex:</label>
+          <div>
+            <input type="radio" id="male" name="sex" value="male" /> Male
+            <input type="radio" id="female" name="sex" value="female" /> Female
+          </div>
+        </div>
+        <div>
+          <label for="lang">Language:</label>
+          <div name="language">
+            <input type="checkbox" id="lang1" name="language" /> English
+            <input type="checkbox" id="lang2" name="language" /> Non English
+          </div>
+        </div>
+        <div>
+          <label for="About">About:</label>
+          <textarea name="About" cols="15" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

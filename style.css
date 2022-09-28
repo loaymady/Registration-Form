@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+.form {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  height: calc(100vh - 40px);
+  padding-left: 30%;
+  padding-top: 40px;
+  max-width: 100%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+div:not(:last-child) {
+  margin: 10px;
+}
+
+form div label {
+  float: left;
+  width: 100px;
+  font-weight: 900;
+  text-align: left;
+}
+form div input,
+form div textarea,
+select {
+  border: solid 2px darkgray;
+}
+input {
+  font-weight: 700;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 30%;
+  height: 25px;
+}
+div textarea {
+  width: 30%;
+  font-weight: 700;
+  font-size: 15px;
+}
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  margin-left: 200px;
+}
